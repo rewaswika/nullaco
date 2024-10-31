@@ -1,0 +1,16 @@
+.shooting_star {
+  animation: shooting 2s infinite;
+  background-color: yellow;
+  width: 5px;
+  height: 20px;
+  position: absolute;
+}
+
+@keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
